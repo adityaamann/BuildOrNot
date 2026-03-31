@@ -36,8 +36,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Manrope', 'system-ui', 'sans-serif'],
-        display: ['Fraunces', 'Georgia', 'serif'],
+        sans: ['Outfit', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
       },
       boxShadow: {
         panel: '0 22px 60px rgba(4, 10, 28, 0.45)',

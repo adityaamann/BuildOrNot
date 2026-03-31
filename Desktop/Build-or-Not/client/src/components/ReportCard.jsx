@@ -9,7 +9,7 @@ export default function ReportCard({ icon: Icon, title, children, className = ''
             <Icon className="w-5 h-5" />
           </div>
         )}
-        <h3 className="text-lg font-semibold tracking-wide text-slate-100">{title}</h3>
+        <h3 className="text-xl font-semibold tracking-tight text-slate-100">{title}</h3>
       </div>
 
       <div className="flex-1 leading-relaxed text-slate-300">

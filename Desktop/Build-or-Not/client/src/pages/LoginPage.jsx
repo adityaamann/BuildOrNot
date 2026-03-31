@@ -69,7 +69,7 @@ export default function LoginPage() {
     <div className="mx-auto flex min-h-[80vh] w-full max-w-md items-center justify-center">
       <Card className="w-full rounded-3xl p-8 md:p-10">
         <div className="mb-8 text-center">
-          <p className="subtle-badge mb-4">Welcome Back</p>
+          <p className="subtle-badge mb-4">Secure Access</p>
           <h1 className="text-3xl font-semibold tracking-tight text-slate-100">Log in</h1>
           <p className="mt-2 text-sm text-slate-400">
             Don&apos;t have an account?{' '}
@@ -124,8 +124,8 @@ export default function LoginPage() {
             {isSubmitting ? 'Signing in...' : 'Continue'}
           </Button>
 
-          <p className="text-center text-xs text-slate-500">
-            Demo login is prefilled: <span className="text-slate-300">user1 / password1</span>
+          <p className="rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2 text-center text-xs text-slate-400">
+            Demo login is prefilled: <span className="text-slate-200">user1 / password1</span>
           </p>
         </form>
 

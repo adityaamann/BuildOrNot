@@ -33,17 +33,19 @@ export default function ScoreGauge({ score, summary }) {
 
   return (
     <Card className="relative flex flex-col items-center gap-8 overflow-hidden p-8 md:flex-row" hoverable>
-      <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-brand-gold/18 blur-3xl" />
+      <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-brand-gold/16 blur-3xl" />
+      <div className="absolute left-0 top-0 h-28 w-full bg-gradient-to-r from-brand-gold/10 via-transparent to-brand-royal/10" />
 
       <div className="flex-shrink-0 relative">
         <div className={`z-10 flex h-40 w-40 flex-col items-center justify-center rounded-full border-4 bg-surface-900/65 backdrop-blur-sm transition-all duration-1000 ${getColorClass()}`}>
           <span className="text-5xl font-bold">{Math.round(animatedScore)}</span>
-          <span className="text-sm font-medium opacity-80 uppercase tracking-widest mt-1">/ 10</span>
+          <span className="mt-1 text-sm font-medium uppercase tracking-widest opacity-80">/ 10</span>
         </div>
       </div>
 
       <div className="flex-1 text-center md:text-left z-10">
-        <h2 className="mb-2 text-2xl font-semibold tracking-tight text-slate-100">Overall Assessment</h2>
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-amber">Final Verdict</p>
+        <h2 className="mb-2 mt-2 text-3xl font-semibold tracking-tight text-slate-100">Overall Assessment</h2>
         <p className="text-lg leading-relaxed text-slate-300">
           {summary}
         </p>

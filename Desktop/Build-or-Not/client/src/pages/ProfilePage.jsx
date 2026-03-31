@@ -14,17 +14,17 @@ export default function ProfilePage() {
           </div>
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-white">My Account</h1>
-            <p className="text-sm text-slate-400">Your login details</p>
+            <p className="text-sm text-slate-400">Your profile and login details</p>
           </div>
         </div>
 
         <div className="space-y-4">
-          <div className="rounded-xl border border-white/10 bg-surface-900/82 p-4">
+          <div className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
             <p className="mb-1 text-xs uppercase tracking-[0.14em] text-slate-500">Name</p>
             <p className="text-base font-medium text-slate-100">{user?.name || 'Not available'}</p>
           </div>
 
-          <div className="rounded-xl border border-white/10 bg-surface-900/82 p-4">
+          <div className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
             <div className="mb-1 inline-flex items-center gap-2 text-xs uppercase tracking-[0.14em] text-slate-500">
               <Mail className="h-3.5 w-3.5" />
               Email
@@ -32,7 +32,7 @@ export default function ProfilePage() {
             <p className="text-base font-medium text-slate-100">{user?.email || 'Not available'}</p>
           </div>
 
-          <div className="rounded-xl border border-white/10 bg-surface-900/82 p-4">
+          <div className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
             <div className="mb-1 inline-flex items-center gap-2 text-xs uppercase tracking-[0.14em] text-slate-500">
               <IdCard className="h-3.5 w-3.5" />
               User ID

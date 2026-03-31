@@ -5,6 +5,7 @@ export default function LoadingSpinner({ message = 'Analyzing your idea...' }) {
   return (
     <div className="mx-auto flex min-h-[60vh] w-full max-w-2xl items-center justify-center px-4">
       <Card className="w-full p-10 text-center">
+        <p className="subtle-badge mb-5">Processing</p>
         <div className="relative mx-auto w-fit">
           <div className="absolute inset-0 rounded-full bg-brand-gold/35 blur-xl" />
           <Loader2 className="relative z-10 h-14 w-14 animate-spin text-brand-amber" />

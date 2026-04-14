@@ -1,4 +1,4 @@
-# BuildOrNot
+# BuildOrNot (https://buildornotai.vercel.app/)
 
 > **AI-Powered Startup Idea Validator** — Analyze your startup ideas with AI-driven insights on market demand, competition, monetization strategies, and viability scoring.
 
